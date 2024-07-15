@@ -1,0 +1,18 @@
+{
+  "Setup": {
+    "baseURL": "https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html",
+    "log_file": "/Users/vmata/Documents/New_Sess/selenium-docker/logs/automation.log"
+  },
+  "Registration_Page": {
+    "customer_confirmation_xpath": "//div[@id='registration-section']/div/h2",
+    "first_name_xpath": "//input[@id='firstName']",
+    "last_name_xpath": "//input[@id='lastName']",
+    "email_xpath": "//input[@id='email']",
+    "password_xpath": "//input[@id='password']",
+    "street_xpath": "//input[@name='street']",
+    "city_xpath": "//input[@name='city']",
+    "state_dropdown_xpath": "//select[@id='inputState']",
+    "zip_xpath": "//input[@name='zip']"
+  }
+
+}
