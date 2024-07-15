@@ -15,7 +15,7 @@ def customLogger(logLevel=logging.DEBUG):
 
     # Check if the handler already exists to avoid duplicates
     if not logger.handlers:
-        fileHandler = logging.FileHandler("./logs/automation.log", mode='w')
+        fileHandler = logging.FileHandler("selenium-docker/logs/automation.log", mode='w')
         fileHandler.setLevel(logLevel)
 
         formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s: %(message)s',
