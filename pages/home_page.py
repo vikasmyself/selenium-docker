@@ -18,6 +18,7 @@ class HomePage(SeleniumDriver):
         self.zip_xpath = getConfig("Registration_Page", "zip_xpath")
     def verify_homepage_loads(self):
         homepage_loads = self.isElementDisplayed(self.customer_confirmation_xpath, "xpath")
+        self.screenShot("Home Page Appears")
         return homepage_loads
 
     def verify_login(self):
@@ -29,3 +30,4 @@ class HomePage(SeleniumDriver):
         self.sendKeys("Bengaluru", self.city_xpath, "xpath")
         self.sendKeys("56212", self.zip_xpath, "xpath")
         self.selectDropdown(self.state_dropdown_xpath, "xpath", visible_text="California")
+        self.screenShot("Form filled successfully")

@@ -20,7 +20,7 @@ class SeleniumDriver():
     def screenShot(self, resultMessage):
         """
         Takes screenshot of the current open web page
-        """
+
         #fileName = resultMessage + "." + str(round(time.time() * 1000)) + ".png"
         timestamp = datetime.now().strftime("%d-%m-%Y_%I:%M_%p")
         fileName = f"{resultMessage} {timestamp}.png"
@@ -39,7 +39,28 @@ class SeleniumDriver():
         except:
             self.log.error("### Exception Occurred when taking screenshot")
             print_stack()
+        """
+        """
+                Takes screenshot of the current open web page and saves it in a timestamped folder.
+                """
+        # Generate timestamp for the folder and file
+        folder_timestamp = datetime.now().strftime("%d-%m-%Y_%I-%M-%p")
+        file_timestamp = datetime.now().strftime("%d-%m-%Y_%I-%M-%S_%p")
+        folder_name = f"screenprints/{folder_timestamp}"
+        file_name = f"{resultMessage}_{file_timestamp}.png"
 
+        # Create the screenshot directory if it doesn't exist
+        screenshot_directory = os.path.join(os.path.dirname(os.path.dirname(__file__)), folder_name)
+        destination_file = os.path.join(screenshot_directory, file_name)
+
+        try:
+            if not os.path.exists(screenshot_directory):
+                os.makedirs(screenshot_directory)
+            self.driver.save_screenshot(destination_file)
+            self.log.info(f"Screenshot saved to directory: {destination_file}")
+        except Exception as e:
+            self.log.error(f"### Exception Occurred when taking screenshot: {str(e)}")
+            print_stack()
     def getTitle(self):
         return self.driver.title
 
