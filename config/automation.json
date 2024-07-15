@@ -3,6 +3,9 @@
     "baseURL": "https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html",
     "log_file": "/Users/vmata/Documents/New_Sess/selenium-docker/logs/automation.log"
   },
+  "pytest": {
+    "addopts": "--alluredir=reports/allure-results"
+  },
   "Registration_Page": {
     "customer_confirmation_xpath": "//div[@id='registration-section']/div/h2",
     "first_name_xpath": "//input[@id='firstName']",
