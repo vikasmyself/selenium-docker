@@ -18,10 +18,16 @@ class WebDriverFactory:
     def getWebDriverInstance(self):
         baseURL = getConfig("Setup", "baseURL")
         hubURL = getConfig("Setup", "hub_url")
+        selenium_grid = getConfig("Setup","selenium_grid")
+
         if self.browser == "chrome":
             options = webdriver.ChromeOptions()
             self._set_common_options(options)
-            driver = webdriver.Remote(command_executor=hubURL, options=options)
+            if selenium_grid.lower() == "true":
+                print("Started executing in grid ...")
+                driver = webdriver.Remote(command_executor=hubURL, options=options)
+            else:
+                driver = webdriver.Chrome(options=options)
 
         elif self.browser == "firefox":
             options = webdriver.FirefoxOptions()

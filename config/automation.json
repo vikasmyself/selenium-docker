@@ -2,7 +2,8 @@
   "Setup": {
     "hub_url": "http://localhost:4444/wd/hub",
     "baseURL": "https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html",
-    "log_file": "/Users/vmata/Documents/New_Sess/selenium-docker/logs/automation.log"
+    "log_file": "/Users/vmata/Documents/New_Sess/selenium-docker/logs/automation.log",
+    "selenium_grid": "False"
   },
   "pytest": {
     "addopts": "--alluredir=reports/allure-results"

@@ -1,8 +1,6 @@
 import pytest, os
 from base.webdriverfactory import WebDriverFactory
 from selenium.webdriver.support.ui import WebDriverWait
-import time
-
 
 @pytest.fixture(scope='class')
 def oneTimeSetup(request, browser, osType):

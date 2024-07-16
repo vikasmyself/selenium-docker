@@ -9,20 +9,42 @@ services:
     image: selenium/node-chrome:latest
     depends_on:
       - selenium-hub
+    deploy:
+      replicas: 1
     environment:
       - SE_EVENT_BUS_HOST=selenium-hub
       - SE_EVENT_BUS_PUBLISH_PORT=4442
       - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
-    ports:
-      - "5900:5900"
-
+      - SE_NODE_OVERRIDE_MAX_SESSION=true
+      - SE_NODE_MAX_SESSIONS=4
+      - SE_VNC_NO_PASSWORD=1
   firefox:
     image: selenium/node-firefox:latest
     depends_on:
       - selenium-hub
+    deploy:
+      replicas: 0
     environment:
       - SE_EVENT_BUS_HOST=selenium-hub
       - SE_EVENT_BUS_PUBLISH_PORT=4442
       - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
-    ports:
-      - "5901:5900"
+
+# 1. How to connect external node? Download selenium-grid from "selenium dev"-> selenium dev
+# Goto the folder where it is downloaded -> ececute command - java jar selenium-server-<version>.jar node --hub http://localhost:4444
+# + the machine where selenium-grid from "selenium dev"-> selenium dev is downloaded SHOULD have Ex: safari driver downloaded and setup is done
+# if you want to connect chrome and firefox to - selenium-grid from "selenium dev"-> selenium dev - @ SE_EVENT_BUS_HOST=<ip of downloaded,  10.1.2.3>
+
+# too much memory, space and not recommended
+# logging is the best, html is best with screenshot
+
+#  chrome_video:
+#    image: selenium/video:ffmepg-4.3.1-20230801
+#    volumes:
+#      -/tmp/videos:/videos
+#    depends_on:
+#      - chrome
+#    environment:
+#      -DISPLAY_CONTAINER_NAME=chrome
+#      -FILE_NAME=chrome_video.mp4
+
+
