@@ -1,20 +1,20 @@
-07/15/2024 10:17:32 AM - SeleniumDriver - INFO: Element found with locator: //div[@id='registration-section']/div/h2 and  locatorType: xpath
-07/15/2024 10:17:32 AM - SeleniumDriver - INFO: Element is displayed
-07/15/2024 10:17:33 AM - SeleniumDriver - INFO: Screenshot saved to directory: /Users/vmata/Documents/New_Sess/selenium-docker/screenprints/15-07-2024_10-17-AM/Home Page Appears_15-07-2024_10-17-32_AM.png
-07/15/2024 10:17:33 AM - SeleniumDriver - INFO: Element found with locator: //input[@id='firstName'] and  locatorType: xpath
-07/15/2024 10:17:33 AM - SeleniumDriver - INFO: Sent data on element with locator: //input[@id='firstName'] locatorType: xpath
-07/15/2024 10:17:33 AM - SeleniumDriver - INFO: Element found with locator: //input[@id='lastName'] and  locatorType: xpath
-07/15/2024 10:17:33 AM - SeleniumDriver - INFO: Sent data on element with locator: //input[@id='lastName'] locatorType: xpath
-07/15/2024 10:17:33 AM - SeleniumDriver - INFO: Element found with locator: //input[@id='email'] and  locatorType: xpath
-07/15/2024 10:17:33 AM - SeleniumDriver - INFO: Sent data on element with locator: //input[@id='email'] locatorType: xpath
-07/15/2024 10:17:33 AM - SeleniumDriver - INFO: Element found with locator: //input[@id='password'] and  locatorType: xpath
-07/15/2024 10:17:33 AM - SeleniumDriver - INFO: Sent data on element with locator: //input[@id='password'] locatorType: xpath
-07/15/2024 10:17:33 AM - SeleniumDriver - INFO: Element found with locator: //input[@name='street'] and  locatorType: xpath
-07/15/2024 10:17:33 AM - SeleniumDriver - INFO: Sent data on element with locator: //input[@name='street'] locatorType: xpath
-07/15/2024 10:17:33 AM - SeleniumDriver - INFO: Element found with locator: //input[@name='city'] and  locatorType: xpath
-07/15/2024 10:17:33 AM - SeleniumDriver - INFO: Sent data on element with locator: //input[@name='city'] locatorType: xpath
-07/15/2024 10:17:33 AM - SeleniumDriver - INFO: Element found with locator: //input[@name='zip'] and  locatorType: xpath
-07/15/2024 10:17:33 AM - SeleniumDriver - INFO: Sent data on element with locator: //input[@name='zip'] locatorType: xpath
-07/15/2024 10:17:33 AM - SeleniumDriver - INFO: Element found with locator: //select[@id='inputState'] and  locatorType: xpath
-07/15/2024 10:17:33 AM - SeleniumDriver - INFO: Selected option 'California' from dropdown with locator: //select[@id='inputState']
-07/15/2024 10:17:33 AM - SeleniumDriver - INFO: Screenshot saved to directory: /Users/vmata/Documents/New_Sess/selenium-docker/screenprints/15-07-2024_10-17-AM/Form filled successfully_15-07-2024_10-17-33_AM.png
+07/16/2024 09:47:50 AM - SeleniumDriver - INFO: Element found with locator: //div[@id='registration-section']/div/h2 and  locatorType: xpath
+07/16/2024 09:47:50 AM - SeleniumDriver - INFO: Element is displayed
+07/16/2024 09:47:50 AM - SeleniumDriver - INFO: Screenshot saved to directory: /Users/vmata/Documents/New_Sess/selenium-docker/screenprints/16-07-2024_09-47-AM/Home Page Appears_16-07-2024_09-47-50_AM.png
+07/16/2024 09:47:50 AM - SeleniumDriver - INFO: Element found with locator: //input[@id='firstName'] and  locatorType: xpath
+07/16/2024 09:47:51 AM - SeleniumDriver - INFO: Sent data on element with locator: //input[@id='firstName'] locatorType: xpath
+07/16/2024 09:47:51 AM - SeleniumDriver - INFO: Element found with locator: //input[@id='lastName'] and  locatorType: xpath
+07/16/2024 09:47:51 AM - SeleniumDriver - INFO: Sent data on element with locator: //input[@id='lastName'] locatorType: xpath
+07/16/2024 09:47:51 AM - SeleniumDriver - INFO: Element found with locator: //input[@id='email'] and  locatorType: xpath
+07/16/2024 09:47:51 AM - SeleniumDriver - INFO: Sent data on element with locator: //input[@id='email'] locatorType: xpath
+07/16/2024 09:47:51 AM - SeleniumDriver - INFO: Element found with locator: //input[@id='password'] and  locatorType: xpath
+07/16/2024 09:47:51 AM - SeleniumDriver - INFO: Sent data on element with locator: //input[@id='password'] locatorType: xpath
+07/16/2024 09:47:51 AM - SeleniumDriver - INFO: Element found with locator: //input[@name='street'] and  locatorType: xpath
+07/16/2024 09:47:51 AM - SeleniumDriver - INFO: Sent data on element with locator: //input[@name='street'] locatorType: xpath
+07/16/2024 09:47:51 AM - SeleniumDriver - INFO: Element found with locator: //input[@name='city'] and  locatorType: xpath
+07/16/2024 09:47:51 AM - SeleniumDriver - INFO: Sent data on element with locator: //input[@name='city'] locatorType: xpath
+07/16/2024 09:47:51 AM - SeleniumDriver - INFO: Element found with locator: //input[@name='zip'] and  locatorType: xpath
+07/16/2024 09:47:51 AM - SeleniumDriver - INFO: Sent data on element with locator: //input[@name='zip'] locatorType: xpath
+07/16/2024 09:47:51 AM - SeleniumDriver - INFO: Element found with locator: //select[@id='inputState'] and  locatorType: xpath
+07/16/2024 09:47:52 AM - SeleniumDriver - INFO: Selected option 'California' from dropdown with locator: //select[@id='inputState']
+07/16/2024 09:47:52 AM - SeleniumDriver - INFO: Screenshot saved to directory: /Users/vmata/Documents/New_Sess/selenium-docker/screenprints/16-07-2024_09-47-AM/Form filled successfully_16-07-2024_09-47-52_AM.png

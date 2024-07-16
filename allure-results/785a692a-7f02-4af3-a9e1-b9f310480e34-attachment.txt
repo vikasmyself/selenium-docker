@@ -1,0 +1,3 @@
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:71 Element found with locator: //div[@id='registration-section']/div/h2 and  locatorType: xpath
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:222 Element is displayed
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:38 Screenshot saved to directory: /Users/vmata/Documents/New_Sess/selenium-docker/screenprints/15-07-2024_11-26-AM/Home Page Appears_15-07-2024_11-26-07_AM.png

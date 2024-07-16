@@ -1,0 +1,17 @@
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:71 Element found with locator: //input[@id='firstName'] and  locatorType: xpath
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:121 Sent data on element with locator: //input[@id='firstName'] locatorType: xpath
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:71 Element found with locator: //input[@id='lastName'] and  locatorType: xpath
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:121 Sent data on element with locator: //input[@id='lastName'] locatorType: xpath
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:71 Element found with locator: //input[@id='email'] and  locatorType: xpath
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:121 Sent data on element with locator: //input[@id='email'] locatorType: xpath
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:71 Element found with locator: //input[@id='password'] and  locatorType: xpath
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:121 Sent data on element with locator: //input[@id='password'] locatorType: xpath
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:71 Element found with locator: //input[@name='street'] and  locatorType: xpath
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:121 Sent data on element with locator: //input[@name='street'] locatorType: xpath
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:71 Element found with locator: //input[@name='city'] and  locatorType: xpath
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:121 Sent data on element with locator: //input[@name='city'] locatorType: xpath
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:71 Element found with locator: //input[@name='zip'] and  locatorType: xpath
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:121 Sent data on element with locator: //input[@name='zip'] locatorType: xpath
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:71 Element found with locator: //select[@id='inputState'] and  locatorType: xpath
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:266 Selected option 'California' from dropdown with locator: //select[@id='inputState']
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:38 Screenshot saved to directory: /Users/vmata/Documents/New_Sess/selenium-docker/screenprints/15-07-2024_11-26-AM/Form filled successfully_15-07-2024_11-26-08_AM.png

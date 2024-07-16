@@ -14,7 +14,6 @@ def oneTimeSetup(request, browser, osType):
         request.cls.driver = driver
         request.cls.wait = wait
     yield driver
-    time.sleep(3)
     driver.quit()
 
 
